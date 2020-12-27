@@ -1,3 +1,5 @@
+// Задание:
+
 // Объяви две переменные, productName для названия товара и pricePerItem для хранения цены за штуку. При объявлении присвой переменным следующие характеристики товара:
 
 // название - строка 'Дроид';
@@ -5,11 +7,14 @@
 
 
 // Пиши код ниже этой строки
-
-
+const productName = 'Дроид';
+const pricePerItem = 2000;
   
-// console.log(productName);
+console.log(productName);
 // 'Дроид'
 
-// console.log(pricePerItem);
+console.log(pricePerItem);
 // 2000
+
+
+
