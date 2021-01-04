@@ -11,8 +11,12 @@
 
 
 function getExtremeElements(array) {
+ const firstIndex = array[0];
+ const lastIndex = array[array.length -1];
+ const newArray = [firstIndex, lastIndex];
 
-  
+ return newArray;
+
 }
 console.log(getExtremeElements([1, 2, 3, 4, 5]));
 console.log(getExtremeElements(['Земля', 'Марс', 'Венера']));
