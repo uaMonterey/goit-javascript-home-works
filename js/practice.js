@@ -92,15 +92,27 @@ const family = ['Sergii', 'Ryan', 'Maryna'];
 //     console.log(`Число больше чем ${threshold}: ${numbers[i]}`);
 // }
 
+// function makeArray(firstArray, secondArray, maxLength) {
+  
+// const allArray = firstArray.concat(secondArray);
+// console.log(allArray); 
+// }
+// console.log(makeArray(['1', '2', '3', '4', '5', '6'], ['7', '8', '9', '10'], 8));
 
-function willItBlend (someObject) {
-  let ItWillBlend;
-  
-  if (someObject.blendable === 'It will blend') {
-  itWillBlend = true;
-  } else {
-  itWillBlend = false;
-  }
-  
-  return itWillBlend;
-  }
+// firstArray = ['1', '2', '3', '4', '5', '6'];
+// secondArray = ['7', '8', '9', '10'];
+// maxLength = 8;
+// const allArray = firstArray.concat(secondArray);
+// console.log(allArray);
+
+
+// function includes(array, value) {
+//   // Пиши код ниже этой строки
+   
+//     if array.includes(value) ? return true :  return false;
+     
+//      }
+     
+   
+//   // Пиши код выше этой строки
+// console.log(icludes([1,2,3,4,5], 3));
