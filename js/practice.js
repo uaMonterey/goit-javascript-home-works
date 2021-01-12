@@ -115,4 +115,32 @@ const family = ['Sergii', 'Ryan', 'Maryna'];
      
    
 //   // Пиши код выше этой строки
-// console.log(icludes([1,2,3,4,5], 3));
+// // console.log(icludes([1,2,3,4,5], 3));
+
+// function getCommonElements(array1, array2) {
+//    let newArray = [];
+
+//    for (i = 0; i <= array1.length; i += 1) {
+//       if (array2.includes(array1[i])) {
+//          newArray.push(array1[i])
+//          }
+//    }
+//    return newArray;
+// }
+
+
+// Предположим, у нас есть массив оценок, который содержит пять чисел от 1 до 5.
+const scores = [1, 2, 3, 4, 5];
+
+// Следующая операция удаляет три элемента массива,
+// начиная с первого элемента (индекс 0).
+const deletedScores = scores.splice(0, 3);
+
+// Теперь массив scores содержит два элемента.
+console.log(scores); // [4, 5]
+
+// А массив deletedScores содержит три удаленных элемента.
+console.log(deletedScores); // [1, 2, 3]
+
+
+
