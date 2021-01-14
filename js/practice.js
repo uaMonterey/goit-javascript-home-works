@@ -1,4 +1,4 @@
-const family = ['Sergii', 'Ryan', 'Maryna'];
+// const family = ['Sergii', 'Ryan', 'Maryna'];
 
 // console.log(family);
 // console.log(family[0]);
@@ -129,18 +129,113 @@ const family = ['Sergii', 'Ryan', 'Maryna'];
 // }
 
 
-// Предположим, у нас есть массив оценок, который содержит пять чисел от 1 до 5.
-const scores = [1, 2, 3, 4, 5];
+// // Предположим, у нас есть массив оценок, который содержит пять чисел от 1 до 5.
+// const scores = [1, 2, 3, 4, 5];
 
-// Следующая операция удаляет три элемента массива,
-// начиная с первого элемента (индекс 0).
-const deletedScores = scores.splice(0, 3);
+// // Следующая операция удаляет три элемента массива,
+// // начиная с первого элемента (индекс 0).
+// const deletedScores = scores.splice(0, 3);
 
-// Теперь массив scores содержит два элемента.
-console.log(scores); // [4, 5]
+// // Теперь массив scores содержит два элемента.
+// console.log(scores); // [4, 5]
 
-// А массив deletedScores содержит три удаленных элемента.
-console.log(deletedScores); // [1, 2, 3]
+// // А массив deletedScores содержит три удаленных элемента.
+// console.log(deletedScores); // [1, 2, 3]
 
 
 
+// function findLongest(str) {
+  
+//   let string = str.split(' ');
+//   let longest = 0;
+  
+//   for (let i = 0; i < string.length; i += 1) {
+    
+//     if (string[i].length > longest) {
+//       longest = string[i].length;
+    
+//     }
+//   }
+//     return longest;
+// }
+
+// console.log(findLongest("The quick white fox jumped around the massive dog"), 7); 
+
+// function squareArea(A){
+//   let result;
+//   return result = 2 * Math.pi;
+//   }
+
+// console.log(squareArea(2), 1.62);
+
+// const hotel = {
+//   name: 'Resort Hotel',
+//   stars: 5,
+//   capacity: 100,
+// };
+
+// console.log(hotel.name);
+// console.log(hotel['name']);
+
+// function nameShuffler(str){
+//   let str1 = str.split(' ')
+//   let arr = [str1[1], str1[0]]
+//   arr1 = arr.join(' ')
+//   return arr1;
+// }
+// nameShuffler(('john McClane'),'McClane john');
+
+// console.log(Math.abs(-5));
+
+// function sumOfMinimums(arr) {
+//   // your code here
+//
+//   return arr.reduce( (acc, cur) => acc + Math.min(...cur), 0);
+// }
+//
+//
+// console.log(sumOfMinimums([[7, 9, 8, 6, 2], [6, 3, 5, 4, 3], [5, 8, 7, 4, 5]]));
+
+
+
+
+
+
+// function findShort(string) {
+//   let stringArray = string.split(' ');  
+//    let shortestWord;
+//    let shortestLength = stringArray[0].length; 
+//    for(let i = 0; i < stringArray.length; i += 1){
+//     if(stringArray[i].length < shortestLength){
+//    shortestLength = stringArray[i].length;   
+//   //  shortestWord = stringArray[i];
+//    }
+//      }
+//  return shortestWord;
+//    }
+
+// //    console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
+
+// function peopleWithAgeDrink(old) {
+
+//   if (old <= 14){
+//     return "drink toddy"
+//   } else if (old <= 18){
+//    return "drink coke"
+//   } else if (old <= 21) {
+//   return "drink beer"
+//   }
+
+// return 'drink whisky';
+// }
+
+// console.log(peopleWithAgeDrink(12));
+
+
+function highAndLow(numbers){
+  let arr = numbers.split(' ')
+  console.log(arr);
+  return Math.min(...arr)
+}
+
+console.log(highAndLow("4 5 29 54 4 0 -214 542 -64 1 -3 6 -6"));
