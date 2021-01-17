@@ -17,9 +17,7 @@
 // Вызов функции checkForSpam('[SPAM] How to earn fast money?') возвращает true.
 
 function checkForSpam(message) {
-  let result;  
-  result = message.toLowerCase().includes('sale') || message.toLowerCase().includes('spam')
-  return result;
+  return message.toLowerCase().includes('sale') || message.toLowerCase().includes('spam')
 }
 
 console.log(checkForSpam('Latest technology news'));
