@@ -240,7 +240,17 @@
 
 // console.log(highAndLow("4 5 29 54 4 0 -214 542 -64 1 -3 6 -6"));
 
+// for (const book of books) {
+//   console.log(book.title);
+//   console.log(book.author);
+//   console.log(book.rating);
+// }
 
+// for (const book of books) {
+//   const { title, author, rating } = book;
 
-const numbers = []
-let input 
+//   console.log(title);
+//   console.log(author);
+//   console.log(rating);
+// }
+
