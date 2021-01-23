@@ -254,3 +254,29 @@
 //   console.log(rating);
 // }
 
+// const arr = [1, 2, 3, 4]
+
+// console.log(Math.max(...arr));
+
+
+// let ind = Math.max(...arr)
+
+
+// console.log(arr.indexOf(ind));
+
+// console.log(arr[3]);
+
+
+// const names = 
+//    {
+//   Zhak: 33,
+//   Sergii: 34,
+//   Alex: 35,
+//   John: 65,
+// }
+
+// console.log(names);
+
+// console.log(...Object.entries(names));
+
+// console.log(Object.entries(names)[3]);
