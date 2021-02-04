@@ -38,7 +38,6 @@ greetGuest.call(poly, 'С приездом');
 Переменной messages с помощью метода map присваивают значение - массив, создаваемый вызовом функции composeMessage. Значение this при вызове функции переопределяется с помощью метода call.
 Значение переменной messages это массив ['Готовим Burger для solomon@topmail.ua. Ваш заказ 1-й в очереди.', 'Готовим Pizza для artemis@coldmail.net. Ваш заказ 2-й в очереди.', 'Готовим Taco для jacob@mail.com. Ваш заказ 3-й в очереди.']. */
 
-
 const orders = [
   { email: 'solomon@topmail.ua', dish: 'Burger' },
   { email: 'artemis@coldmail.net', dish: 'Pizza' },
@@ -48,12 +47,9 @@ const orders = [
 // Пиши код ниже этой строки
 
 function composeMessage(position) {
-  return `Готовим ${this.dish} для ${this.email}. Ваш заказ ${position}-й в очереди.`
+  return `Готовим ${this.dish} для ${this.email}. Ваш заказ ${position}-й в очереди.`;
 }
 
-const messages = orders.map((array, index) => composeMessage.call(array, index + 1))
+const messages = orders.map((array, index) => composeMessage.call());
 
-console.log(messages)
-
-
-
+console.log(messages);
