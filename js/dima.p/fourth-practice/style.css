@@ -1,0 +1,33 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0, .4);
+}
+
+.modal__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.todo-list{
+    margin: 0 auto 200px;
+}

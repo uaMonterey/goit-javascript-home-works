@@ -76,3 +76,26 @@ console.log(getNestedName(user2, 'pnotify')) // 3 */
 // }
 // console.log(arr1) // [2, 3, 7, 11, 13, 8, 5, 3, 1]
 //!...................................................
+
+const array = [9, 4, 5, 1, 7, 3, 2, 8, 6];
+
+function sortArray(arr) {
+  let sortedOdd = arr.filter(el => el % 2 !== 0).sort();
+  let indexOfEven = [];
+  arr.filter((el, index) => {
+    if (el % 2 === 0) {
+      return indexOfEven.push(index);
+    }
+  });
+
+  console.log(sortedOdd);
+  console.log(indexOfEven);
+  return sortedOdd.forEach(el, i => {
+    sortedOdd.splice(indexOfEven[i], 0, arr[indexOfEven]);
+  });
+}
+
+console.log(sortArray(array));
+
+// array.splice(1, 0, 22);
+// console.log(array);
